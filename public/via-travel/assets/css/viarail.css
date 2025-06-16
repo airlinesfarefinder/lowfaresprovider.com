@@ -1,0 +1,62 @@
+.call_button {
+  background: #d19600;
+}
+
+.call_button .text p {
+  color: #111 !important;
+}
+
+.call_button .text h3 {
+  color: #111 !important;
+}
+
+.call_button.call_now .icon {
+  filter: invert(1);
+}
+
+#popup .content ul li {
+  background: #000;
+}
+
+#popup .button {
+  background: #d19600;
+}
+
+#section_popup .content h3.heading {
+  background: #111;
+}
+
+#amtrack #small_banner .head {
+  background: none;
+  margin-top: 44px;
+  padding-left: 5px;
+}
+
+#amtrack #small_banner .head h3 {
+  font-weight: 600;
+  font-size: 37px;
+}
+
+#hero_content .infobox .item .icon {
+  background-color: #94f3ff;
+  border: 3px solid #2196f3;
+}
+
+#amtrack #tabs ul {
+  background-color: #000;
+}
+
+#amtrack #tabs ul li.active {
+  background-color: #ff9800;
+}
+
+.flightSearchBar .searchBox .fields.searchBtn .button {
+  background-color: #000;
+}
+
+#popup .button .content p {
+    color: #000;
+}
+#popup .button .content h3 {
+    color: #000;
+}

@@ -1,0 +1,197 @@
+/*extra small*/
+@media (max-width: 768px) {
+  #nav {
+    width: calc(100% - 10px);
+    left: 5px;
+  }
+
+  #nav .menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 9;
+    width: calc(100% - 10px);
+    top: 56px;
+    left: 5px;
+    border-radius: 9px;
+  }
+
+  #nav .menu.active {
+    display: block;
+  }
+
+  #nav .menu ul li {
+    position: relative;
+    display: block;
+    float: none;
+  }
+
+  #nav .logo {
+    width: 100%;
+    background-size: 97%;
+  }
+
+  #nav .menu.right {
+    display: block;
+    position: relative;
+    top: 0;
+    background: no-repeat;
+    width: 100%;
+  }
+
+  #nav .menu.right li {
+    width: auto;
+    float: left;
+    margin: 0 6px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  #nav .menu.right .icononly {
+    display: block;
+    float: right;
+    padding: 27px 10px;
+  }
+
+  #nav #nav_trigger {
+    display: block;
+    cursor: pointer;
+  }
+
+  #banner .head {
+    padding-left: 15px;
+    margin: 0;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  #banner .head .royal_logo {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-left: -15px;
+  }
+
+  #banner .gutter {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #deals {
+    padding: 25px 0px;
+  }
+
+  #deals .head {
+    text-align: center;
+    float: none;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  #deals .controls_wrapper {
+    text-align: center;
+  }
+
+  #deals .controls {
+    float: none;
+    display: inline-block;
+  }
+
+  #cta {
+    padding: 15px 0px;
+  }
+
+  #testimonials {
+    padding: 15px;
+  }
+
+  #member_cta .gutter {
+    padding: 15px;
+  }
+
+  #member_cta .item .bg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 225px;
+  }
+
+  #member_cta .item .text {
+    position: relative;
+    display: block;
+    text-align: center;
+    left: 0%;
+    padding: 10px 10px;
+  }
+
+  #member_cta .item::after {
+    background: linear-gradient(
+      to bottom,
+      transparent 20%,
+      #000 45%,
+      #000 100%
+    );
+  }
+
+  #footer {
+    padding: 15px;
+  }
+
+  #experience {
+    padding: 12px;
+  }
+
+  #experience .section::after {
+    left: 16px;
+  }
+
+  #experience .section .content,
+  #experience .section .content.right {
+    padding: 5px;
+    padding-left: 50px;
+    text-align: left;
+  }
+
+  #experience .section .effect {
+    left: 0;
+  }
+
+  #cta_book .left_half::before,
+  #cta_book .left_half::after {
+    display: none;
+  }
+
+  #cta_book .about_content {
+    padding: 15px;
+  }
+
+  #experience .heading {
+    text-align: center;
+  }
+
+  #banner .search .button.submit {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/*extra small end*/
+
+/*small*/
+@media (min-width: 768px) {
+}
+/*small end*/
+
+/*medium */
+@media (min-width: 992px) {
+}
+/*medium end*/
+
+/*large*/
+@media (min-width: 1200px) {
+}
+
+/*large end*/

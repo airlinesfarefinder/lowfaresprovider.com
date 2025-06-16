@@ -1,0 +1,663 @@
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199px) {
+  #services .box p {
+    height: 80px;
+  }
+
+  .searchPage #results .list .items .box .distance .start,
+  .searchPage #results .list .items .box .distance .end {
+    padding-top: 12px;
+  }
+
+  .searchPage #results .list .items .box .distance::after {
+    right: 108px;
+  }
+
+  .searchPage #results .list .items .box .left-section {
+    padding-left: 12px;
+  }
+
+  .searchPage #results .list .items .box .left-section .date {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .searchPage #results .list .items .box .right-section h2 {
+    font-size: 32px;
+  }
+
+  .searchPage #results .list .items .box .right-section {
+    padding-left: 16px;
+    padding-top: 20px;
+  }
+  .searchPage #search .databox .buttons {
+    padding-top: 19px;
+  }
+  #details .flight-details {
+    padding-right: 0;
+  }
+  #details .price-details {
+    padding-top: 50px !important;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991px) {
+  #navigation ul {
+    display: none;
+  }
+
+  #navigation .buttons,
+  #navigation .buttons li .menu {
+    display: block;
+    top: 4px;
+    position: relative;
+  }
+
+  #navigation .buttons {
+    padding-top: 5px;
+  }
+  .searchPage #navigation .menubox .menu {
+    display: inline-block;
+  }
+
+  #banner {
+    background-position: center;
+    padding-bottom: 36px;
+    margin-top: 110px;
+    padding-top: 162px;
+  }
+
+  #banner .content h1 {
+    font-size: 32px;
+  }
+  #navigation .buttons li.user ul {
+    display: block !important;
+  }
+
+  #search .databox {
+    width: 95%;
+  }
+
+  #search .databox a {
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 17px;
+    margin-left: 16px;
+  }
+
+  #search .databox .buttons {
+    padding-top: 50px;
+  }
+
+  #services .box {
+    margin: 10px 15px;
+  }
+
+  #search h2,
+  #destination h2,
+  #deals .content h2,
+  #airways .header h2 {
+    font-size: 36px;
+  }
+
+  #airways .header h2 {
+    width: 70%;
+  }
+
+  #deaols h2 {
+    margin: auto;
+  }
+
+  #deals .content {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #deals .content p {
+    padding: 0 14%;
+  }
+
+  #deals .places .box {
+    width: 94%;
+    margin-bottom: 20px;
+  }
+
+  #airways .box {
+    margin-bottom: 45px;
+  }
+
+  #whybook h2,
+  #footer .social {
+    padding-left: 12.5px;
+  }
+
+  #whybook ul {
+    padding-left: 50px;
+  }
+
+  #footer .details,
+  #footer .social ul {
+    margin-bottom: 20px;
+    padding-left: 12.5px;
+  }
+
+  #footer .list {
+    margin-bottom: 20px;
+    /* padding: 0; */
+  }
+
+  #details .form-section .box {
+    max-width: 240px;
+  }
+  .searchPage #results .list .head .Buttonfilter {
+    display: inline-block;
+  }
+
+  .searchPage #results .filter {
+    display: none;
+  }
+
+  .searchPage #results .list .items .box .distance .stops {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 16px;
+  }
+  .searchPage #results .list .items .box .distance .stops::before {
+    margin-top: 20px;
+  }
+  .searchPage #results .list .items .box .distance::after {
+    top: 35px;
+  }
+  .searchPage #results .list {
+    padding: 30px 25px;
+  }
+  .searchPage #results .list .items .box .left-section p {
+    font-size: 14px;
+  }
+  .searchPage #results .list .items .box .left-section p .bold {
+    font-size: 18px;
+  }
+  .searchPage #results .list .items .box .distance::after {
+    top: 50px;
+    right: 103px;
+  }
+  .searchPage #search .databox a {
+    border-bottom: 1px solid #dfdfdf !important;
+    border-right: 1px solid #dfdfdf !important;
+  }
+  #results #filter {
+    display: none;
+  }
+
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .start::before {
+    right: 26px;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item:after {
+    right: 150px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+  #navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #navigation .buttons #contact_number {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    background: #0072a5;
+    padding: 13px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  #navigation .buttons li.user .img {
+    display: inline-block;
+    float: none;
+    top: 4px;
+  }
+
+  #navigation .buttons li.user .text {
+    display: inline-block;
+    float: none;
+    width: auto;
+    padding-left: 9px;
+  }
+
+  #navigation .buttons li.user .text p {
+    font-size: 16px;
+  }
+
+  #navigation .buttons li.user .text h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #footer {
+    padding: 15px;
+    margin-bottom: 75px;
+  }
+  #search h2 {
+    padding-left: 10%;
+  }
+  #navigation {
+    padding: 10px 20px;
+    z-index: 99;
+  }
+
+  #banner .content_wrapper {
+    text-align: center;
+  }
+
+  #banner .content {
+    padding: 20px 20px;
+    text-align: center;
+  }
+  #search .databox {
+    width: 90%;
+  }
+
+  #search .databox a {
+    border-right: none;
+  }
+
+  #search .databox .buttons {
+    padding-top: 20px;
+  }
+
+  #services .box {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+
+  #deals .places .box {
+    width: 60%;
+    min-height: 300px !important;
+    height: 100% !important;
+  }
+
+  #airways .box {
+    width: 50%;
+  }
+
+  #whybook h2,
+  #footer .social {
+    padding-left: 25px;
+  }
+
+  #footer .details,
+  #footer .social ul {
+    padding-left: 25px;
+  }
+
+  #details .form-section {
+    padding: 0 35px;
+  }
+
+  #details .form-section .policies p {
+    font-size: 16px;
+  }
+
+  #details .price-details {
+    padding: 0 50px;
+  }
+
+  #details .form-section .box {
+    max-width: 250px;
+  }
+
+  #details .form-section .payment-form .card {
+    text-align: center;
+  }
+
+  #details .form-section .payment-form .card a {
+    float: unset;
+  }
+
+  #details .form-section .payment-form .card h4 {
+    font-weight: 700;
+    padding-top: 15px;
+  }
+
+  .searchPage #results .list .items .box .right-section .info {
+    text-align: left;
+  }
+  .searchPage #results .list .items .box .right-section .text {
+    display: inline-block;
+  }
+  .searchPage #results .list .items .box .right-section .button {
+    display: block;
+    float: right;
+    padding-top: 35px;
+    text-align: center;
+  }
+  .searchPage #results .list .items .box .right-section button {
+    padding: 5px 45px;
+  }
+  .searchPage #search .databox a {
+    border-right: none;
+  }
+  .searchPage #search .databox a .changebar {
+    top: unset;
+    left: 48%;
+    bottom: 0;
+    transform: rotate(90deg);
+  }
+  .searchPage #search .selector {
+    text-align: center;
+    padding: 0;
+    padding-top: 25px;
+  }
+  .searchPage #navigation .contect_section {
+    display: none;
+  }
+  .searchPage #navigation .menubox .menu {
+    margin-top: 45px;
+  }
+  #details .contect-info {
+    padding: 0 20px;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .start::before {
+    right: 35px;
+  }
+  #details .flight-details .box .detail-info .box-content .duration {
+    padding: 0 21px;
+    padding-top: 20px;
+  }
+  #details .flight-details {
+    padding: 0 25px;
+  }
+  #menu .contect_section {
+    display: block;
+  }
+  .searchPage #navigation .menubox {
+    display: block;
+    text-align: right;
+    padding-right: 40px;
+  }
+
+  #contact_number_mobile.active {
+    display: block;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) - Custom Bootstrap breakpoint */
+@media only screen and (max-width: 575px) {
+  #banner .content span {
+    font-size: 16px;
+  }
+
+  #banner .content h1 {
+    font-size: 30px;
+  }
+
+  #banner .content .buttons button {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  #services .box {
+    width: 85%;
+  }
+
+  #airways .box {
+    width: 85%;
+  }
+
+  #deals .content p {
+    padding: 0px 4%;
+    font-size: 16px;
+  }
+
+  #search h2,
+  #destination h2,
+  #deals .content h2,
+  #airways .header h2 {
+    font-size: 26px;
+  }
+
+  #deals .places .box {
+    width: 90%;
+  }
+
+  #airways .header p {
+    padding: 10px 8%;
+    font-size: 16px;
+  }
+
+  #whybook h2 {
+    font-size: 57px;
+    padding-left: 10px;
+  }
+
+  #details .form-section .box {
+    max-width: 401px;
+  }
+
+  #details .form-section .policies p {
+    font-size: 14px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 500px) - Custom smaller breakpoint */
+@media only screen and (max-width: 499px) {
+  .widthFull {
+    width: 100%;
+  }
+  .searchPage #results .list .items .box .right-section .info {
+    text-align: center;
+  }
+  .searchPage #results .list .items .box .right-section .text {
+    display: block;
+  }
+  .searchPage #results .list .items .box .right-section .button {
+    display: block;
+    float: unset;
+    padding-top: 0;
+  }
+  .searchPage #search .databox {
+    width: 90%;
+    padding: 25px 39px;
+  }
+  .searchPage #search .databox a {
+    padding-left: 33px;
+  }
+  .searchPage #results .list .items .box .left-section .date {
+    display: inline-block;
+  }
+  .changeHeight {
+    height: auto !important;
+  }
+  #details .flight-details .box .detail-info .box-content .duration {
+    top: 0;
+    transform: translateY(0);
+  }
+  #details .flight-details .box .detail-info .box-content .duration .item {
+    display: inline-block;
+    width: calc(50% - 2px);
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .start,
+  #details .flight-details .box .detail-info .box-content .duration .item .end {
+    float: unset;
+    display: block;
+    width: auto;
+    padding-left: 23px;
+    padding-bottom: 20px;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .start::before,
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .end::before {
+    left: -5px;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item:after {
+    width: 1px;
+    height: 75px;
+    left: -2px;
+    top: 45px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 420px) - Custom smallest breakpoint */
+@media only screen and (max-width: 419px) {
+  #details .price-details h2,
+  #details .flight-details h2,
+  #details .contect-info h2,
+  #details .form-section h2 {
+    font-size: 25px;
+  }
+
+  #details .form-section button p {
+    font-size: 18px;
+  }
+
+  #details .price-details {
+    padding: 0 20px;
+  }
+
+  #details .form-section p {
+    padding-right: 0px;
+  }
+
+  #details .form-section .policies p {
+    padding-left: 0;
+  }
+
+  #details .form-section .policies p img {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    top: 30px;
+  }
+
+  #details .form-section button span img {
+    height: 16px;
+  }
+
+  #details .form-section button {
+    padding: 10px 35px;
+  }
+
+  #details .form-section .payment-form .card .card-img {
+    width: 100%;
+  }
+  .searchPage #results .list .items .box .distance::after {
+    margin-left: 16px;
+  }
+  #details .contect-info form button {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #details .flight-details .box .detail-info .box-content .right-section p {
+    font-size: 14px;
+  }
+  #details .flight-details .box .detail-info .box-content .right-section h3 {
+    font-size: 14px;
+  }
+  #details .flight-details .box .detail-info .box-content .date-time {
+    padding-bottom: 0 !important;
+  }
+  #details .flight-details .box .detail-info .box-content .duration .item {
+    display: block;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .duration
+    .item
+    .start,
+  #details .flight-details .box .detail-info .box-content .duration .item .end {
+    width: 195px;
+  }
+  #details .flight-details .box .detail-info .box-content .right-section {
+    padding-top: 0;
+  }
+  #details
+    .flight-details
+    .box
+    .detail-info
+    .box-content
+    .right-section
+    p
+    span {
+    display: block;
+    padding-left: 35px;
+  }
+  #details .price-details .box,
+  #details .flight-details .box {
+    padding: 15px 10px;
+  }
+  .searchPage #results .list .head select {
+    float: unset;
+    margin-top: 10px;
+  }
+  #footer .social .input {
+    width: 90%;
+  }
+
+  #footer {
+    padding: 15px;
+  }
+}
