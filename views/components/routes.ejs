@@ -1,0 +1,150 @@
+<!-- routes-modern.ejs -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<div
+  style="
+    /* match features-modern padding */
+    padding: 20px 10px;
+    background: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    width:100%;
+  "
+>
+  <!-- Centered Title -->
+  <h2
+    style="
+    width:100%;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    "
+  >
+    Domestic &amp; International Routes
+    <!-- <span
+      style="
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg,#007bff,#28a745);
+        border-radius: 2px;
+      "
+    ></span> -->
+  </h2>
+
+  <!-- Cards container: same max‑width + centering as features below -->
+  <div
+    style="
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+      margin: auto;
+      max-width: 1300px;
+      width: 100%;
+    "
+  >
+
+    <% const routes = [
+      { airline:'Spirit', from:'RDU', fromCity:'Raleigh', to:'ORD', toCity:'Orlando', price:'$274.00' },
+      { airline:'LATAM',  from:'SCL', fromCity:'Santiago', to:'PUQ', toCity:'Punta Arenas', price:'$608.00' },
+      { airline:'Spirit', from:'NYC', fromCity:'New York', to:'SLC', toCity:'Salt Lake City', price:'$305.00' },
+      { airline:'Spirit', from:'MEM', fromCity:'Memphis', to:'LAS', toCity:'Las Vegas', price:'$707.00' },
+      { airline:'United', from:'ORL', fromCity:'Orlando', to:'NYC', toCity:'New York', price:'$271.22' },
+      { airline:'United', from:'ACY', fromCity:'Atlantic City', to:'ORL', toCity:'Orlando', price:'$638.00' }
+     
+    ]; %>
+
+    <% routes.forEach((route, idx) => { %>
+      <a
+        href="/"
+        style="
+          /* two‑column on desktop, full on mobile */
+          /* flex: 1 1 260px; */
+          min-width: 350px;;
+          max-width: 600px;
+          background: linear-gradient(135deg, #ffffff, #f0f8ff);
+          border: 2px solid #e3e3e3;
+          border-radius: 14px;
+          box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+          padding: 20px;
+          text-decoration: none;
+          color: inherit;
+          transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+          position: relative;
+        "
+        onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 28px rgba(0,0,0,0.12)'; this.style.borderColor='#28a745';"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.08)'; this.style.borderColor='#e3e3e3';"
+      >
+        <% if (idx === 0) { %>
+          <span
+            style="
+              position:absolute;
+              top:-10px;
+              right:-10px;
+              background:#dc3545;
+              color:#fff;
+              font-size:12px;
+              font-weight:600;
+              padding:4px 8px;
+              border-radius:4px;
+              box-shadow:0 2px 6px rgba(0,0,0,0.1);
+            "
+          >POPULAR</span>
+        <% } %>
+
+        <!-- Airline & Date -->
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-plane-departure" style="font-size:20px; color:#007bff;"></i>
+            <span style="font-size:15px; font-weight:500; color:#333;"><%= route.airline %></span>
+          </div>
+          <span style="font-size:13px; color:#555;">
+            <i class="far fa-calendar-alt" style="margin-right:4px;"></i>
+            25/06/2025 – 30/06/2025
+          </span>
+        </div>
+
+        <!-- Route & Arrow -->
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:15px;">
+          <div>
+            <div style="font-size:19px; font-weight:700; color:#222;"><%= route.from %></div>
+            <div style="font-size:12px; color:#777;"><%= route.fromCity %></div>
+          </div>
+          <i class="fas fa-exchange-alt" style="font-size:22px; color:#28a745;"></i>
+          <div style="text-align:right;">
+            <div style="font-size:19px; font-weight:700; color:#222;"><%= route.to %></div>
+            <div style="font-size:12px; color:#777;"><%= route.toCity %></div>
+          </div>
+        </div>
+
+        <!-- Price & CTA -->
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span style="font-size:21px; font-weight:800; color:#dc3545;"><%= route.price %></span>
+          <div
+            style="
+              background:#007bff;
+              color:#fff;
+              font-size:14px;
+              font-weight:600;
+              padding:8px 14px;
+              border-radius:6px;
+              box-shadow:0 4px 10px rgba(0,0,0,0.1);
+              transition: background .3s ease;
+            "
+            onmouseover="this.style.background='#0056b3';"
+            onmouseout="this.style.background='#007bff';"
+          >
+            View Deal <i class="fas fa-arrow-right" style="margin-left:6px;"></i>
+          </div>
+        </div>
+      </a>
+    <% }) %>
+
+  </div>
+</div>
